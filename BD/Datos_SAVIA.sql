@@ -73,7 +73,7 @@ CREATE TABLE accessLogs (
     modified_id INTEGER
 );
 
--- DATOS DE PRUEBA
+
 INSERT INTO categories (name) VALUES ('Action'), ('RPG'), ('Adventure'), ('Strategy'), ('Indie');
 INSERT INTO developers (studioName, countryOrigin) VALUES ('FromSoftware', 'Japan'), ('CD Projekt', 'Poland'), ('Supergiant', 'USA'), ('Team Cherry', 'Australia'), ('Santa Monica', 'USA');
 INSERT INTO games (title, price, developers_id, categories_id) VALUES 
