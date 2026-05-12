@@ -16,6 +16,3 @@ SAVIA es una implementación física de base de datos en PostgreSQL diseñada pa
 4. `users`: Gestión de perfiles de usuario y saldo.
 5. `licenses`: Tabla transaccional (Relación N:N entre Users y Games).
 6. `accessLogs`: Historial de accesos por IP para auditoría de licencias.
-
-## Instalación
-Para desplegar el esquema, ejecute el script `savia_core.sql` en el SQL Editor de su preferencia.
